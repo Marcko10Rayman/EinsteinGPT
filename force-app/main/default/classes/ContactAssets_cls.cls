@@ -4,7 +4,7 @@ public with sharing class ContactAssets_cls {
     public static List<Asset> getAssets(String idVoiceCall){
         try {
             Final List<Asset> contactAsset = new List<Asset>();
-            Final List<VoiceCall> call = [SELECT Id, Contact__c FROM VoiceCall WHERE Id =: idVoiceCall];
+            Final List<VoiceCall> call = [SELECT Id, Contact__c FROM VoiceCall WHERE Id =: idVoiceCall LIMIT 1];
             System.debug('Values from VoiceCall');
             System.debug(call.size());
             System.debug(call);
