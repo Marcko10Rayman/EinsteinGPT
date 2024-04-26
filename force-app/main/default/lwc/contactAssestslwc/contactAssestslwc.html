@@ -1,3 +1,27 @@
+
 <template>
-    
+    <template lwc:if={isData}>
+        <lightning-card variant="Narrow"  title="Assets" icon-name="standard:asset_object">
+            <template for:each={assets} for:item="asset">
+                <div class="slds-box" key={asset.Id}>
+                    <lightning-card  variant="Narrow"  title={asset.Product2.Name} icon-name="standard:asset_hierarchy" key={asset.Id}>
+                        <p class="slds-var-p-horizontal_small"><b>Purchase Date:</b> {asset.PurchaseDate}</p>
+                        <p class="slds-var-p-horizontal_small"><b>Install Date:</b> {asset.InstallDate}</p>
+                        <p class="slds-var-p-horizontal_small"><b>Usage End Date:</b> {asset.UsageEndDate}</p>
+                        <p class="slds-var-p-horizontal_small"><b>Description:</b> {asset.Description }</p>
+                    </lightning-card>
+                </div>
+            </template>
+        </lightning-card>
+    </template>
+    <template lwc:else>
+        <lightning-card  variant="Narrow"  title="Assets" icon-name="standard:asset_object">
+            <div class="slds-illustration slds-illustration_small" aria-hidden="true">
+                <img src="/img/chatter/OpenRoad.svg" class="slds-illustration__svg" alt=""/>
+                <div class="slds-text-longform">
+                    <h2>There are no assets</h2>
+                </div>
+            </div>
+        </lightning-card>
+    </template>
 </template>
