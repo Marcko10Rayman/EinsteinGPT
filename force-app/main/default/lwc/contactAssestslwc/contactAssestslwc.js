@@ -7,6 +7,7 @@ export default class ContactAssestslwc extends LightningElement {
     @track assets;
     @track error;
     @track isData = false;
+    @track showDetails = false;
 
     connectedCallback() {
         this.getAssets();
@@ -30,6 +31,26 @@ export default class ContactAssestslwc extends LightningElement {
         .catch(error => {
             this.error = error;
         })
+    }
+
+    handleClick(event) {
+        const assetId = event.target.dataset.id;
+        //console.info(assetId);
+        let divblock = this.template.querySelector('[data-div-id="'+assetId+'"]');
+        //console.info(divblock);
+        let buttonBlock =this.template.querySelector('[data-id="'+assetId+'"]');
+        //console.info(buttonBlock);
+        let className = divblock.className;
+        //console.info(className)
+
+        if(className.includes('slds-hidden')) {
+            divblock.className = 'slds-visible, slds-is-expanded';
+            buttonBlock.label = 'Hide details';
+        } else {
+            divblock.className = 'slds-hidden, slds-is-collapsed';
+            buttonBlock.label = 'View details';
+        }
+        //let domList = divblock.classList;
     }
 
 

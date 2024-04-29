@@ -5,10 +5,15 @@
             <template for:each={assets} for:item="asset">
                 <div class="slds-box" key={asset.Id}>
                     <lightning-card  variant="Narrow"  title={asset.Product2.Name} icon-name="standard:asset_hierarchy" key={asset.Id}>
-                        <p class="slds-var-p-horizontal_small"><b>Purchase Date:</b> {asset.PurchaseDate}</p>
-                        <p class="slds-var-p-horizontal_small"><b>Install Date:</b> {asset.InstallDate}</p>
-                        <p class="slds-var-p-horizontal_small"><b>Usage End Date:</b> {asset.UsageEndDate}</p>
-                        <p class="slds-var-p-horizontal_small"><b>Description:</b> {asset.Description }</p>
+                        <lightning-button variant="brand" label="Show Details" title="button" onclick={handleClick} class="slds-m-left_x-small" data-id={asset.Id}>
+                        </lightning-button>
+                        <div class="slds-hidden, slds-is-collapsed" data-div-id={asset.Id}>
+                            <br />
+                            <p class="slds-var-p-horizontal_small"><b>Purchase Date:</b> {asset.PurchaseDate}</p>
+                            <p class="slds-var-p-horizontal_small"><b>Install Date:</b> {asset.InstallDate}</p>
+                            <p class="slds-var-p-horizontal_small"><b>Usage End Date:</b> {asset.UsageEndDate}</p>
+                            <p class="slds-var-p-horizontal_small"><b>Description:</b> {asset.Description }</p>
+                        </div>
                     </lightning-card>
                 </div>
             </template>
