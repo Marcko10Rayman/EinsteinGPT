@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <botMlDomain>
+        <label>ASKR Technologies MX</label>
+        <mlIntents>
+            <developerName>Confused</developerName>
+            <label>Confused</label>
+        </mlIntents>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <description>Entity to show the languages</description>
+            <developerName>Languages</developerName>
+            <extractionType>Value</extractionType>
+            <label>Languages</label>
+            <mlSlotClassValues>
+                <synonymGroups>
+                    <languages>en_US</languages>
+                    <terms>English</terms>
+                </synonymGroups>
+                <synonymGroups>
+                    <languages>es</languages>
+                    <terms>Ingles</terms>
+                    <terms>Inglés</terms>
+                </synonymGroups>
+                <value>en_US</value>
+            </mlSlotClassValues>
+            <mlSlotClassValues>
+                <synonymGroups>
+                    <languages>en_US</languages>
+                    <terms>Spanish</terms>
+                </synonymGroups>
+                <synonymGroups>
+                    <languages>es</languages>
+                    <terms>Español</terms>
+                </synonymGroups>
+                <value>es</value>
+            </mlSlotClassValues>
+        </mlSlotClasses>
+        <name>ASKR_Technologies_MX</name>
+    </botMlDomain>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.ConversationId</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>EndUserId</developerName>
+        <label>End User Id</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>EmbeddedMessaging</messageType>
+        </contextVariableMappings>
+        <dataType>Id</dataType>
+        <developerName>RoutableId</developerName>
+        <label>Routable Id</label>
+    </contextVariables>
+    <defaultOutboundFlow>Route_from_ASKR_Technologies_MX</defaultOutboundFlow>
+    <description>A bot from scratch.</description>
+    <label>ASKR Technologies MX</label>
+    <logPrivateConversationData>true</logPrivateConversationData>
+    <richContentEnabled>true</richContentEnabled>
+    <sessionTimeout>480</sessionTimeout>
+</Bot>
