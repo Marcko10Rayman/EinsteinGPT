@@ -16,6 +16,8 @@ public with sharing class MX_Bot_Validate_Contact_Information {
         public String Email;
         @InvocableVariable(required= true)
         public String CustomerNumber;
+        @InvocableVariable(required= true)
+        public Boolean VIP;
     }
 
     @InvocableMethod(label='MX_Bot_Validate_Contact' description='Validate if the contact exists according with the user info provided')
@@ -27,7 +29,7 @@ public with sharing class MX_Bot_Validate_Contact_Information {
             System.debug('Values from bot => '+ values);
             Final List<String> valuesBot = values.split(',');
             System.debug('Here is the list ::: ' + valuesBot);
-            String query = 'SELECT Id, FirstName, LastName, Email FROM Contact ';
+            String query = 'SELECT Id, FirstName, LastName, Email, VIP__c FROM Contact ';
             query+= 'WHERE FirstName LIKE \'%' + valuesBot[0] + '%\' AND LastName LIKE \'%' + valuesBot[1] + '%\'';
             query+= ' AND Email LIKE \'%' + valuesBot[2] + '%\'';
             query+= ' AND Customer_Number__c LIKE \'%' + valuesBot[3] + '%\'';
@@ -40,6 +42,7 @@ public with sharing class MX_Bot_Validate_Contact_Information {
             output.FirstName = retrieveContact[0].FirstName;
             output.LastName = retrieveContact[0].LastName;
             output.Email = retrieveContact[0].Email;
+            output.VIP = retrieveContact[0].VIP__c;
             outputList.add(output);
             return outputList;
             //return retrieveContact;
