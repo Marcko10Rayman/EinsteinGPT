@@ -11,13 +11,70 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>9a82953f-dd1b-4bda-aff2-4f0d96c415f9</variableOperationIdentifier>
+                    <variableOperationIdentifier>b4752c5f-8b0b-4213-9909-5ab1c0d7ce19</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>8952dad3-bbd9-4780-adeb-a2e715dbcd6e</stepIdentifier>
+                <stepIdentifier>6c7bca0d-b5c0-4064-8fc4-1f9fa1fb4e63</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
             <stepIdentifier>5ddbab0e-e0b2-42c0-a4e5-cc07f0be12c9</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>Channel_Type</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>WhatsApp</rightOperandValue>
+            </botStepConditions>
+            <botSteps>
+                <botMessages>
+                    <message>Welcome to support via WhatsApp</message>
+                    <messageIdentifier>2480571f-1565-7f5f-e7b0-64c64e338412</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>f12dd886-afe6-b887-b113-4287cb2f1df1</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <conditionLogicType>And</conditionLogicType>
+            <stepIdentifier>4dab91a8-d3e2-4513-ad46-932315c7265a</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>Channel_Type</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>Embedded Messaging</rightOperandValue>
+            </botStepConditions>
+            <botSteps>
+                <botMessages>
+                    <message>Welcome to support via Embedded Messaging</message>
+                    <messageIdentifier>afab9434-a8a5-c4ce-4c95-0f318cab72f5</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>cfbc0330-a45a-d41c-3a36-e51ef3b691aa</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <conditionLogicType>And</conditionLogicType>
+            <stepIdentifier>f1db2c76-c346-530c-678c-3298ab414754</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>Channel_Type</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>Facebook</rightOperandValue>
+            </botStepConditions>
+            <botSteps>
+                <botMessages>
+                    <message>Welcome to support via Facebook</message>
+                    <messageIdentifier>5ae6fdc0-45d1-0c11-9fec-4086aec4bfe7</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>98af849c-283a-5f92-da00-6643ca87a999</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <conditionLogicType>And</conditionLogicType>
+            <stepIdentifier>98b9b0cc-4d98-65e5-8261-c162883196e6</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -59,9 +116,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>SetConversationLanguage</type>
-                    <variableOperationIdentifier>117b4ff4-c505-4844-8c1a-d96140e0c8f6</variableOperationIdentifier>
+                    <variableOperationIdentifier>72af216d-6fcf-4945-a181-412c2ba3791e</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>836f03b2-ea7c-441c-a897-bf63d71361d8</stepIdentifier>
+                <stepIdentifier>678cc829-a8a3-4a17-9afe-b3a95609a4e5</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -125,7 +182,7 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>8a05cb40-b510-49ee-945c-6338279ac510</variableOperationIdentifier>
+                <variableOperationIdentifier>27bdf444-3d7b-418c-a3d2-91fb71f6eb81</variableOperationIdentifier>
             </botVariableOperation>
             <stepIdentifier>7ba241fa-31de-4089-ae72-1222f81440a2</stepIdentifier>
             <type>VariableOperation</type>
@@ -1338,11 +1395,6 @@
         <dataType>Id</dataType>
         <developerName>ContactId</developerName>
         <label>ContactId</label>
-    </conversationVariables>
-    <conversationVariables>
-        <dataType>Text</dataType>
-        <developerName>ConversationId</developerName>
-        <label>ConversationId</label>
     </conversationVariables>
     <conversationVariables>
         <dataType>Text</dataType>
