@@ -1,7 +1,7 @@
 public with sharing class MX_Bot_Inactive_Users {
     public class UserInput {
         @InvocableVariable(required= true)
-        public String EndUserId;
+        public String messagingSessionId;
     }
 
     public class outputValue {
@@ -15,14 +15,14 @@ public with sharing class MX_Bot_Inactive_Users {
         try {
             //List validation [FisrtName, LastName, Email,Customer Number]
             List<outputValue> outputList = new List<outputValue>();
-            Final String values = valuesFromBot[0].EndUserId;
+            Final String values = valuesFromBot[0].messagingSessionId;
             System.debug('Values from bot => '+ values);
-            String query = 'SELECT Id, SessionKey, ConversationId, Status, MessagingEndUserId FROM MessagingSession WHERE ConversationId = \''+values+'\' AND CaseId != NULL AND Status != \'Ended\';
+            String query = 'SELECT Id, SessionKey, ConversationId, Status, MessagingEndUserId, Inactive__c FROM MessagingSession WHERE Id = \''+values+'\' AND Status = \'Active\'';
             System.debug('Query :::: ' + query);
             Final List<MessagingSession> retrieveMessagings = Database.query(query);
             System.debug('Messaging retrieved => ' + retrieveMessagings);
             outputValue output = new outputValue();
-            if(retrieveMessagings.size()>0) {
+            if(retrieveMessagings[0].Inactive__c) {
                 output.isInactive = 'true';
             } else {
                 output.isInactive = 'false';
