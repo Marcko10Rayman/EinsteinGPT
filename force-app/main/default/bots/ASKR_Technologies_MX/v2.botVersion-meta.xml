@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BotVersion xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>v1</fullName>
+    <fullName>v2</fullName>
     <articleAnswersGPTEnabled>false</articleAnswersGPTEnabled>
     <botDialogs>
         <botSteps>
@@ -11,13 +11,13 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>900629c7-c0d1-4b38-877b-1648d58d4ad4</variableOperationIdentifier>
+                    <variableOperationIdentifier>9813e11a-889f-4dc7-9332-f4dd287e01a1</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>dbe12375-141e-4df2-a26b-439d3ec71693</stepIdentifier>
+                <stepIdentifier>b243915d-21c5-4037-bfbf-fefdc2f50394</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>752fd13d-14c9-43bd-ada7-b5d3107a5741</stepIdentifier>
+            <stepIdentifier>915d3d57-2055-4bba-8955-7edcaabe8890</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -39,9 +39,9 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>3ebe2249-1b61-42de-adf0-5712e39b9ff6</variableOperationIdentifier>
+                <variableOperationIdentifier>76132356-f3b0-4158-9d89-7a29e92b5ae3</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>f142b0e7-e046-47a0-b754-9f0c0c1f6035</stepIdentifier>
+            <stepIdentifier>d02b10d2-7b62-4527-81f3-53074865875e</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -54,9 +54,9 @@
             <botSteps>
                 <botMessages>
                     <message>I notice that we have a pending call, give a second and let me transfer with an agent.</message>
-                    <messageIdentifier>46774c8b-c12b-7e76-7c15-7df6a0f0945a</messageIdentifier>
+                    <messageIdentifier>a20809d5-77ec-4263-be4b-71e4f4205f4a</messageIdentifier>
                 </botMessages>
-                <stepIdentifier>1169cbc6-4b0a-ecb1-1746-abdf3cf6db1e</stepIdentifier>
+                <stepIdentifier>d46f44ac-6e67-487a-b8cf-42762b95271b</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <botSteps>
@@ -68,9 +68,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Set</type>
-                    <variableOperationIdentifier>e4cb5ab5-33d8-41b7-80e0-680d47c086ca</variableOperationIdentifier>
+                    <variableOperationIdentifier>a61f08d1-d789-4c6f-8776-e7d2b382e062</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>a634507e-7c63-49b3-bebf-9c47010e90f1</stepIdentifier>
+                <stepIdentifier>ed8536c9-fa22-4495-9608-c2f6dd894549</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <botSteps>
@@ -82,11 +82,11 @@
                     </systemMessageMappings>
                     <type>Transfer</type>
                 </conversationSystemMessage>
-                <stepIdentifier>222d1260-4027-4ca3-8ac9-6b5e17197d22</stepIdentifier>
+                <stepIdentifier>9c4a0e7f-6467-43ee-a3f2-17ccc0544d0f</stepIdentifier>
                 <type>SystemMessage</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>18b80cfa-d329-43ed-8d35-a058e6f427dd</stepIdentifier>
+            <stepIdentifier>8779c5a0-63d7-4b6f-a025-be825d3db451</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -97,13 +97,13 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>a1eabac2-cc5b-4b92-9b77-51c8391aff1e</variableOperationIdentifier>
+                    <variableOperationIdentifier>6509c63f-d523-4dec-a2e3-6ca91f4622df</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>2419feec-6034-4db8-908b-1ed5b6f4c735</stepIdentifier>
+                <stepIdentifier>809e6da6-eed4-49a4-bb04-08c712193424</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>5ddbab0e-e0b2-42c0-a4e5-cc07f0be12c9</stepIdentifier>
+            <stepIdentifier>e886bb68-f8ad-446c-acd6-c676c9d3b567</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -116,13 +116,13 @@
             <botSteps>
                 <botMessages>
                     <message>Welcome to support via WhatsApp</message>
-                    <messageIdentifier>7647f440-e346-5099-5f5c-ae9736bba23c</messageIdentifier>
+                    <messageIdentifier>a0d06d27-4a07-40d4-8b10-55de91d9ed11</messageIdentifier>
                 </botMessages>
-                <stepIdentifier>c08a4bef-1514-0c50-130d-54c8c2412fc3</stepIdentifier>
+                <stepIdentifier>15ad10ac-6ca3-490b-b148-b1e577f23478</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>a87813ff-324c-af1b-cd72-26cec226f0a0</stepIdentifier>
+            <stepIdentifier>8011d8ca-ca72-48ba-aecc-4eb7714c4d42</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -135,13 +135,13 @@
             <botSteps>
                 <botMessages>
                     <message>Welcome to support via Embedded Messaging</message>
-                    <messageIdentifier>afab9434-a8a5-c4ce-4c95-0f318cab72f5</messageIdentifier>
+                    <messageIdentifier>b7300e7b-3b7e-4c6e-8149-31f2d9a4f002</messageIdentifier>
                 </botMessages>
-                <stepIdentifier>cfbc0330-a45a-d41c-3a36-e51ef3b691aa</stepIdentifier>
+                <stepIdentifier>85344253-4303-4188-b4ab-cc31f557e1d3</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>f1db2c76-c346-530c-678c-3298ab414754</stepIdentifier>
+            <stepIdentifier>cbc500d1-f40d-48da-85c5-9728ef424ab1</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -154,13 +154,13 @@
             <botSteps>
                 <botMessages>
                     <message>Welcome to support via Facebook</message>
-                    <messageIdentifier>5ae6fdc0-45d1-0c11-9fec-4086aec4bfe7</messageIdentifier>
+                    <messageIdentifier>94a98c6a-220f-4148-a4ac-dab19cb71dc8</messageIdentifier>
                 </botMessages>
-                <stepIdentifier>98af849c-283a-5f92-da00-6643ca87a999</stepIdentifier>
+                <stepIdentifier>a592ff34-ed6b-4e4f-a423-247f122693cf</stepIdentifier>
                 <type>Message</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>98b9b0cc-4d98-65e5-8261-c162883196e6</stepIdentifier>
+            <stepIdentifier>87101ad6-4490-43bf-bba7-bd55b7912812</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -168,15 +168,15 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>What language would you prefer to the bot in ?</message>
-                    <messageIdentifier>a7cf9b6a-4f64-ae74-a7d3-6f37ce434656</messageIdentifier>
+                    <messageIdentifier>6cf0c521-0d9d-4326-a44f-edbc2bc6c973</messageIdentifier>
                 </botMessages>
                 <botQuickReplyOptions>
                     <literalValue>Spanish</literalValue>
-                    <quickReplyOptionIdentifier>1296e56d-9078-2b8d-e249-9e9ec4b67a1d</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>55e94ffd-455b-4cea-b880-18cb49995055</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>English</literalValue>
-                    <quickReplyOptionIdentifier>a4a8f939-567e-5c40-ec0e-087f59a2245e</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>614cab6b-620d-477c-b2b5-6d3e194d655d</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -189,9 +189,9 @@
                 <quickReplyType>Static</quickReplyType>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>5535bc0e-6c60-5e1d-f219-e2916a4aac9d</variableOperationIdentifier>
+                <variableOperationIdentifier>b4c1b3fd-f8e0-41e2-977d-7ccbd6abeed0</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>7cf24718-7248-4889-ab7d-52da5c11f926</stepIdentifier>
+            <stepIdentifier>c37f7e76-05e9-47af-b95f-e0d218a21a48</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -202,29 +202,21 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>SetConversationLanguage</type>
-                    <variableOperationIdentifier>caa93645-0b9b-48d9-883e-e22f63fbee42</variableOperationIdentifier>
+                    <variableOperationIdentifier>cf6983a5-a648-48ab-9ad7-4b58ff8e6fce</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>aad8d903-d784-48f0-85a3-1f4830616347</stepIdentifier>
+                <stepIdentifier>e5257b2b-d939-47ee-ba6f-8508328c78f1</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>dcadc0af-9fbe-481f-96f1-dec25aebab80</stepIdentifier>
+            <stepIdentifier>948ae1b6-99e8-43c7-b23a-b0f8ab3d379d</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
             <botMessages>
-                <message>Language set to {!Language}</message>
-                <messageIdentifier>c6ac5594-3cb0-60c7-8d24-cc00fe01940a</messageIdentifier>
-            </botMessages>
-            <stepIdentifier>c6579a4a-4c13-4af5-a983-f7c561c3c794</stepIdentifier>
-            <type>Message</type>
-        </botSteps>
-        <botSteps>
-            <botMessages>
                 <message>Hi, I&apos;m ASKR Technologies Virtual Assistant.</message>
-                <messageIdentifier>4df45653-8962-4f3d-94b7-b00e1a0c0d8b</messageIdentifier>
+                <messageIdentifier>07fd0552-ee75-4de1-9138-3ac486e98477</messageIdentifier>
             </botMessages>
-            <stepIdentifier>5699abd1-0c93-42ea-846f-ca4f7a2f130a</stepIdentifier>
+            <stepIdentifier>9158e3c0-047a-49cf-bb97-384a1625518c</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -232,7 +224,7 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>Please tell me how I can help you today</message>
-                    <messageIdentifier>19b3d8b4-220b-566a-10c6-6651de672003</messageIdentifier>
+                    <messageIdentifier>20617878-9d48-45f4-9509-ca414fbf5e05</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -244,9 +236,9 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>6d096d58-1faa-e8d1-dbb5-4a56ea94dca1</variableOperationIdentifier>
+                <variableOperationIdentifier>c0111413-9ab4-49df-9654-e05f4625648e</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>4a7efb95-608f-4951-8ce7-186d93c1c3aa</stepIdentifier>
+            <stepIdentifier>44fd114a-0cf7-44ae-b09d-243a74963107</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -268,9 +260,9 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>58021bf8-ce65-4a0e-90a0-acb5f508ea27</variableOperationIdentifier>
+                <variableOperationIdentifier>6c293647-3d4c-482d-b8fc-807ddb57d879</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>7ba241fa-31de-4089-ae72-1222f81440a2</stepIdentifier>
+            <stepIdentifier>ccc085fe-e85c-4615-90c9-e3bf84198d08</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -278,8 +270,8 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <autoSelectIfSingleChoice>false</autoSelectIfSingleChoice>
                 <botMessages>
-                    <message>Choose one of those possible utterances</message>
-                    <messageIdentifier>a5778574-6094-04bf-0abc-cb887916fcb0</messageIdentifier>
+                    <message>Choose one of below:</message>
+                    <messageIdentifier>2f3eac23-1d0a-44eb-b895-8155d37152ce</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -297,14 +289,22 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyOptionTemplate>{!Description__c}</quickReplyOptionTemplate>
                 <quickReplyType>Dynamic</quickReplyType>
-                <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                <quickReplyWidgetType>Menu</quickReplyWidgetType>
                 <sourceVariableName>Utterance_List</sourceVariableName>
                 <sourceVariableType>ConversationVariable</sourceVariableType>
                 <type>Collect</type>
-                <variableOperationIdentifier>47c23351-83b7-2893-63c2-1ce3f06757d9</variableOperationIdentifier>
+                <variableOperationIdentifier>a8d81732-ebd1-43ee-9941-4e83c8d47ede</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>eaee2cd5-4d3c-4e9e-bf8b-f1a91f759e21</stepIdentifier>
+            <stepIdentifier>1ee319ae-b758-476e-bec6-8f6937247ec6</stepIdentifier>
             <type>VariableOperation</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>{!EndUserContactId}</message>
+                <messageIdentifier>fe1c81ad-0c8a-9143-2358-2e861deb4ac7</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>584c8820-8989-426a-b24b-831fe8c0bb24</stepIdentifier>
+            <type>Message</type>
         </botSteps>
         <botSteps>
             <botStepConditions>
@@ -313,6 +313,27 @@
                 <operatorType>GreaterThan</operatorType>
                 <rightOperandValue>0</rightOperandValue>
             </botStepConditions>
+            <botStepConditions>
+                <leftOperandName>EndUserContactId</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>IsNotSet</operatorType>
+            </botStepConditions>
+            <botSteps>
+                <botMessages>
+                    <message>Your chosen option was:</message>
+                    <messageIdentifier>50708bff-f2b3-407c-17ba-7b7230ef299e</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>235fff02-6c09-1253-83f8-cd5fd685179d</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botMessages>
+                    <message>{!Utterance_Object.Description__c}</message>
+                    <messageIdentifier>66b2e0c0-9a48-59d0-8b82-f6865fbbc4f3</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>05a20e9a-4a8a-fa32-35ff-d099cc5f372f</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
             <botSteps>
                 <botNavigation>
                     <botNavigationLinks>
@@ -320,11 +341,53 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>be7e2b75-9fe9-4951-a27e-891169d3192e</stepIdentifier>
+                <stepIdentifier>9b76f6f1-0bc7-4233-af2b-7bd0aabc9225</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>0748fd0a-8890-487f-b4fe-c2f00104f1c5</stepIdentifier>
+            <stepIdentifier>48ff50b5-fbbf-4d35-b979-114bc7f515aa</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>Utterance_List</leftOperandName>
+                <leftOperandType>ConversationVariable</leftOperandType>
+                <operatorType>GreaterThan</operatorType>
+                <rightOperandValue>0</rightOperandValue>
+            </botStepConditions>
+            <botStepConditions>
+                <leftOperandName>EndUserContactId</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>IsSet</operatorType>
+            </botStepConditions>
+            <botSteps>
+                <botMessages>
+                    <message>Your chosen option was:</message>
+                    <messageIdentifier>ebc191a7-f0c4-470e-6376-6dbf2c2da81c</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>8921497c-7b0f-6421-a523-0ec8c3906123</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botMessages>
+                    <message>{!Utterance_Object.Description__c}</message>
+                    <messageIdentifier>7dbba14d-77b2-2ba1-056f-0d562dbcdd0a</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>6f227b87-9b83-04d3-de3a-0e6a2666af2b</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Validate_EndUserContactId</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Call</type>
+                </botNavigation>
+                <stepIdentifier>e9f701b6-8ad5-4c34-b239-633df0acd7b3</stepIdentifier>
+                <type>Navigation</type>
+            </botSteps>
+            <conditionLogicType>And</conditionLogicType>
+            <stepIdentifier>73852326-777a-e440-3a45-80f13e02d6f7</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -341,15 +404,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>98ca8d84-6209-41c1-b281-ff6e9ca579a0</stepIdentifier>
+                <stepIdentifier>57e9ad92-a70b-497f-93c5-19ebdd14092e</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>5a546d67-e394-4797-a278-fa064f087bff</stepIdentifier>
+            <stepIdentifier>dfac5939-1916-4745-a38e-1b4654ad8cd5</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>6ca1427b-f905-4054-8c6b-502bbe28b65a</stepIdentifier>
+            <stepIdentifier>bf47243a-b15b-462a-870e-d4ee3c621643</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Welcome</developerName>
@@ -366,13 +429,13 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>ccc45f68-e40e-4ddb-a8b8-a88f159433cc</variableOperationIdentifier>
+                    <variableOperationIdentifier>111d7c3f-d969-4e59-b4eb-b377d277e04c</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>12adddff-fd41-42c9-86d1-60306a204859</stepIdentifier>
+                <stepIdentifier>fab215b3-dce3-4cf1-8fa6-a6247a6f945c</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>ffba8fd2-acb3-413e-8976-81508ea9df71</stepIdentifier>
+            <stepIdentifier>7ce9802e-596f-472b-afbd-54f77788f85c</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -380,31 +443,31 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>Choose an option</message>
-                    <messageIdentifier>ff27f150-0b0f-5f5d-7ada-8f908b5b80df</messageIdentifier>
+                    <messageIdentifier>063d99d1-e724-4c49-a6bf-9c36df553e6d</messageIdentifier>
                 </botMessages>
                 <botQuickReplyOptions>
                     <literalValue>Inquire about our Products and Services</literalValue>
-                    <quickReplyOptionIdentifier>3a66b871-20b5-ae41-02e8-346051475068</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>38a86ddf-a3fa-4ec7-b1e8-ecf9c2a40d2f</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>Accounts and Payments</literalValue>
-                    <quickReplyOptionIdentifier>25e43349-172a-c3c9-cc37-904edde7ecca</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>f36b4eec-88c9-4521-a896-e72ae33c3d48</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>Issue with my Order</literalValue>
-                    <quickReplyOptionIdentifier>74ebdd0f-5746-54ce-d5b2-910842b15487</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>9ddf017b-9003-42e0-874b-437d706504ef</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>Inquire About a Previous Request</literalValue>
-                    <quickReplyOptionIdentifier>3fcee2e1-39c0-4aad-f6eb-1ec711a4cbdb</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>d42bf9b1-15f1-424a-a61a-7f4af4f60c74</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>Warranty Claim</literalValue>
-                    <quickReplyOptionIdentifier>2ab72261-b251-2cdc-0e8e-7fc8ef58c94e</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>56f944c6-f484-4458-b3c8-b2d98f785cb0</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>Other</literalValue>
-                    <quickReplyOptionIdentifier>f1e0f3af-31e4-29b0-e888-e80a0c9e6255</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>c7215995-30bf-43cb-8bcb-8a43dd9b5553</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -417,9 +480,9 @@
                 <quickReplyType>Static</quickReplyType>
                 <quickReplyWidgetType>Menu</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>68345fd9-d312-56a5-f358-7e5083968bb9</variableOperationIdentifier>
+                <variableOperationIdentifier>59d7d74f-dd6f-4336-9794-18333a579c90</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>2f4a6811-6ef9-41a7-810d-4fd1cd481f7b</stepIdentifier>
+            <stepIdentifier>b74c03b9-d307-4881-acf5-ecbd0171c445</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -441,6 +504,49 @@
                 <operatorType>Equals</operatorType>
                 <rightOperandValue>5</rightOperandValue>
             </botStepConditions>
+            <botStepConditions>
+                <leftOperandName>EndUserContactId</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>IsSet</operatorType>
+            </botStepConditions>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Validate_EndUserContactId</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Call</type>
+                </botNavigation>
+                <stepIdentifier>1fa9967f-c467-4b5a-982a-a72851d21dc0</stepIdentifier>
+                <type>Navigation</type>
+            </botSteps>
+            <conditionLogicType>Or</conditionLogicType>
+            <stepIdentifier>e0e0c663-b014-a2e0-a1ad-a72d71370606</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>menu_option</leftOperandName>
+                <leftOperandType>ConversationVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>Warranty Claim</rightOperandValue>
+            </botStepConditions>
+            <botStepConditions>
+                <leftOperandName>menu_option</leftOperandName>
+                <leftOperandType>ConversationVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>Reclamación de garantía</rightOperandValue>
+            </botStepConditions>
+            <botStepConditions>
+                <leftOperandName>menu_option</leftOperandName>
+                <leftOperandType>ConversationVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>5</rightOperandValue>
+            </botStepConditions>
+            <botStepConditions>
+                <leftOperandName>EndUserContactId</leftOperandName>
+                <leftOperandType>ContextVariable</leftOperandType>
+                <operatorType>IsNotSet</operatorType>
+            </botStepConditions>
             <botSteps>
                 <botNavigation>
                     <botNavigationLinks>
@@ -448,15 +554,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>f600ea62-ca25-40c6-951b-3a08966eb358</stepIdentifier>
+                <stepIdentifier>d577c919-7709-4545-9050-37da8c45fc3e</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>Or</conditionLogicType>
-            <stepIdentifier>1d334dd8-979f-45cc-b4bc-eeffc49b3398</stepIdentifier>
+            <stepIdentifier>11ab3370-59b7-4a77-94f3-51faca891372</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>730e1b0f-60d7-4502-a7d8-3710356c749b</stepIdentifier>
+            <stepIdentifier>855277ac-9833-4fd2-82d4-cc17db48c919</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Main_Menu</developerName>
@@ -468,9 +574,9 @@
         <botSteps>
             <botMessages>
                 <message>Ok, got it, you would like to make a warranty claim.</message>
-                <messageIdentifier>59454431-6dcb-f2b0-aed6-8a870a4311db</messageIdentifier>
+                <messageIdentifier>fd37f37b-0d83-41ea-9a0e-0b444733ff07</messageIdentifier>
             </botMessages>
-            <stepIdentifier>f5d8eb4a-e90c-4b16-a141-ab2882baaf3e</stepIdentifier>
+            <stepIdentifier>347116f9-820f-4cc7-975c-5e0670ed78b2</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -478,15 +584,15 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>Before we proceed, can I ask you  several questions to verify your customer information?</message>
-                    <messageIdentifier>168aecb0-34d8-8519-2a26-e97d0289ebfc</messageIdentifier>
+                    <messageIdentifier>1768d838-d939-4c13-bfca-766b708bf1c9</messageIdentifier>
                 </botMessages>
                 <botQuickReplyOptions>
                     <literalValue>Yes</literalValue>
-                    <quickReplyOptionIdentifier>c20ff71b-338e-0a70-c07a-3c25a0abb344</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>712eaf6b-009c-4fee-8504-f39cbabd50c4</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>No</literalValue>
-                    <quickReplyOptionIdentifier>e0159c4a-cf51-cee4-8ebf-2016ef037b59</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>f4f4d696-5563-4e6a-ab5b-407ea649f4b8</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -499,9 +605,9 @@
                 <quickReplyType>Static</quickReplyType>
                 <quickReplyWidgetType>Menu</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>aaa9cc1d-5b12-4781-5f09-7458a7b2bbbc</variableOperationIdentifier>
+                <variableOperationIdentifier>0483697f-287c-4cce-848c-01803e9f0f1f</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>c2d2e181-68d9-4cef-a504-b952d73dcd2b</stepIdentifier>
+            <stepIdentifier>44e58f90-24aa-44b5-a5ad-a29c82546e3c</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -518,11 +624,11 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>4d49ebef-d624-469d-803a-d2462688611e</stepIdentifier>
+                <stepIdentifier>83f6e52a-3062-4092-8a0d-6581f2b7537c</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>fae91771-36c7-4f94-a694-a74c4bd1d81b</stepIdentifier>
+            <stepIdentifier>0931b2b5-b0ea-4ab5-b5fb-532b189eea8b</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -539,15 +645,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>a48c6142-5c3b-4480-9f2e-02d08287d04c</stepIdentifier>
+                <stepIdentifier>8976d93e-742b-42d0-bee6-34cd5bc47e2a</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>eddc95d5-1319-478c-9997-3ddf9ff11706</stepIdentifier>
+            <stepIdentifier>c27e8ab1-51a6-490a-8dd3-48ed491bbe39</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>742493bb-95c1-44f5-9194-b5f6fe994b1c</stepIdentifier>
+            <stepIdentifier>4fb4b6c4-fe5b-48a5-9d99-ba08c91e5189</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Warranty_Claim</developerName>
@@ -564,13 +670,13 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>dc109814-e0bf-4a2f-823f-ee9f40b6cee0</variableOperationIdentifier>
+                    <variableOperationIdentifier>43787eb2-ca86-4a0e-87f2-4c0e48c128a9</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>073d8053-676a-46f7-be6e-592f0636e1e2</stepIdentifier>
+                <stepIdentifier>10c7bcfe-06c8-4da9-8998-60459621823a</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>5f9bc17a-edc6-4b91-81e7-97f2f1806a6b</stepIdentifier>
+            <stepIdentifier>025cd39c-ecd2-4bf7-855d-33878cc70e0b</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -578,7 +684,7 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>I will need to know your First Name, Last Name, Email Address and Customer Number. Can you please enter it?</message>
-                    <messageIdentifier>4eb9120a-9ab1-4e8f-d959-b0b9e02ecee4</messageIdentifier>
+                    <messageIdentifier>8343e5c0-91ed-4db1-9bbf-5d1f7c8adb8b</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -590,9 +696,9 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>07d3cf14-8aca-3838-01e6-c0ebc9916113</variableOperationIdentifier>
+                <variableOperationIdentifier>7852d540-0a20-41d5-8157-39a102fc2cf4</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>9c710a45-a5f8-4a9d-9cfa-56aabe58f1a0</stepIdentifier>
+            <stepIdentifier>dca01682-d9a2-477c-a5ce-e5e58354c816</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -601,21 +707,15 @@
                     <invocationActionName>MX_Bot_Validate_Contact_Information</invocationActionName>
                     <invocationActionType>apex</invocationActionType>
                     <invocationMappings>
+                        <parameterName>MessagingUserId</parameterName>
+                        <type>Input</type>
+                        <variableName>MessagingEndUserId</variableName>
+                        <variableType>ContextVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
                         <parameterName>userInfo</parameterName>
                         <type>Input</type>
                         <variableName>user_information</variableName>
-                        <variableType>ConversationVariable</variableType>
-                    </invocationMappings>
-                    <invocationMappings>
-                        <parameterName>FirstName</parameterName>
-                        <type>Output</type>
-                        <variableName>FirstName</variableName>
-                        <variableType>ConversationVariable</variableType>
-                    </invocationMappings>
-                    <invocationMappings>
-                        <parameterName>Id</parameterName>
-                        <type>Output</type>
-                        <variableName>ContactId</variableName>
                         <variableType>ConversationVariable</variableType>
                     </invocationMappings>
                     <invocationMappings>
@@ -631,9 +731,15 @@
                         <variableType>ConversationVariable</variableType>
                     </invocationMappings>
                     <invocationMappings>
-                        <parameterName>Email</parameterName>
+                        <parameterName>Id</parameterName>
                         <type>Output</type>
-                        <variableName>Email</variableName>
+                        <variableName>ContactId</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>FirstName</parameterName>
+                        <type>Output</type>
+                        <variableName>FirstName</variableName>
                         <variableType>ConversationVariable</variableType>
                     </invocationMappings>
                     <invocationMappings>
@@ -642,11 +748,17 @@
                         <variableName>LastName</variableName>
                         <variableType>ConversationVariable</variableType>
                     </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>Email</parameterName>
+                        <type>Output</type>
+                        <variableName>Email</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>a8d7dc9e-4bac-481e-8522-01b260849baa</variableOperationIdentifier>
+                <variableOperationIdentifier>0780bd8b-1dc0-45b5-8fe3-11c4fee059d3</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>7fc8689c-9362-497b-bddd-ee872c45e279</stepIdentifier>
+            <stepIdentifier>5c97375d-d0f8-477b-a4c8-53bd91627286</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -668,11 +780,11 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>46b39039-1116-4350-ba9b-d7b13c6045f1</stepIdentifier>
+                <stepIdentifier>607f10eb-2c34-45c5-9521-ecb5728a7e22</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>2bcd96cc-fb0e-e8ca-5d7a-ff34fddd335c</stepIdentifier>
+            <stepIdentifier>0e9db483-1b26-054d-9ac1-4dee9e7bc3f1</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -694,11 +806,11 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>903ac37c-4069-40b8-9ae6-7c11314bb085</stepIdentifier>
+                <stepIdentifier>0e1b993b-158b-4362-b460-8bcc25c4c3d0</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>3b6ece1b-7f44-b760-ead9-3c337ef97bf6</stepIdentifier>
+            <stepIdentifier>ca0f77d6-6769-4095-8b74-dc88a162afd8</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -714,21 +826,135 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>c9ac6249-6960-48c5-a24c-fe827115f14c</stepIdentifier>
+                <stepIdentifier>56d153e3-e661-44e4-aeae-add4eb3b2027</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>dd97eecf-bc59-4499-a7b7-f1666dae3d86</stepIdentifier>
+            <stepIdentifier>65838596-0fe0-40f8-ae5b-d25ae74857b9</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>c717f3c7-ef8f-48ec-ac2c-f115726eedd6</stepIdentifier>
+            <stepIdentifier>bbf125da-415b-4f25-900b-5f00e2cf1dff</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <description>Bot ask to the user information to claim a warranty</description>
         <developerName>Customer_Information</developerName>
         <isPlaceholderDialog>false</isPlaceholderDialog>
         <label>Customer Information</label>
+        <showInFooterMenu>false</showInFooterMenu>
+    </botDialogs>
+    <botDialogs>
+        <botSteps>
+            <botMessages>
+                <message>Ok, got it, you would like to make a warranty claim.</message>
+                <messageIdentifier>fd37f37b-0d83-41ea-9a0e-0b444733ff07</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>347116f9-820f-4cc7-975c-5e0670ed78b2</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botVariableOperation>
+                <botInvocation>
+                    <invocationActionName>MX_Bot_Contact_Info</invocationActionName>
+                    <invocationActionType>flow</invocationActionType>
+                    <invocationMappings>
+                        <parameterName>ContactId</parameterName>
+                        <type>Input</type>
+                        <variableName>EndUserContactId</variableName>
+                        <variableType>ContextVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>CustomerNumber</parameterName>
+                        <type>Output</type>
+                        <variableName>CustomerNumber</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>Email</parameterName>
+                        <type>Output</type>
+                        <variableName>Email</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>LastName</parameterName>
+                        <type>Output</type>
+                        <variableName>LastName</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>FirstName</parameterName>
+                        <type>Output</type>
+                        <variableName>FirstName</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>VIP</parameterName>
+                        <type>Output</type>
+                        <variableName>VIP</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                    <invocationMappings>
+                        <parameterName>ContactId</parameterName>
+                        <type>Output</type>
+                        <variableName>ContactId</variableName>
+                        <variableType>ConversationVariable</variableType>
+                    </invocationMappings>
+                </botInvocation>
+                <type>Set</type>
+                <variableOperationIdentifier>91d24b0a-4954-411b-9c7d-339b7449f624</variableOperationIdentifier>
+            </botVariableOperation>
+            <stepIdentifier>8b6a596a-a5d0-43de-9b62-006f66c574de</stepIdentifier>
+            <type>VariableOperation</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>VIP</leftOperandName>
+                <leftOperandType>ConversationVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>false</rightOperandValue>
+            </botStepConditions>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Start_Proccess_Warranty</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Call</type>
+                </botNavigation>
+                <stepIdentifier>1271babd-fcbd-4824-bb79-dffd131ae3df</stepIdentifier>
+                <type>Navigation</type>
+            </botSteps>
+            <conditionLogicType>And</conditionLogicType>
+            <stepIdentifier>2a09a488-14a2-4215-89bd-ddbdfe6ec91a</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <botStepConditions>
+                <leftOperandName>VIP</leftOperandName>
+                <leftOperandType>ConversationVariable</leftOperandType>
+                <operatorType>Equals</operatorType>
+                <rightOperandValue>true</rightOperandValue>
+            </botStepConditions>
+            <botSteps>
+                <botNavigation>
+                    <botNavigationLinks>
+                        <targetBotDialog>Start_Proccess_Warranty_VIP</targetBotDialog>
+                    </botNavigationLinks>
+                    <type>Call</type>
+                </botNavigation>
+                <stepIdentifier>7affb5e3-1e82-4b20-afb3-e7297052e9e3</stepIdentifier>
+                <type>Navigation</type>
+            </botSteps>
+            <conditionLogicType>And</conditionLogicType>
+            <stepIdentifier>0674c27c-2859-ea3b-c665-61a0f415c8ba</stepIdentifier>
+            <type>Group</type>
+        </botSteps>
+        <botSteps>
+            <stepIdentifier>4fb4b6c4-fe5b-48a5-9d99-ba08c91e5189</stepIdentifier>
+            <type>Wait</type>
+        </botSteps>
+        <developerName>Validate_EndUserContactId</developerName>
+        <isPlaceholderDialog>false</isPlaceholderDialog>
+        <label>Validate EndUserContactId</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
     <botDialogs>
@@ -740,21 +966,21 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>dd53f879-9244-4095-b830-2c42bedb5f94</variableOperationIdentifier>
+                    <variableOperationIdentifier>35e4d8d5-13ca-40fa-b38e-c575224215a4</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>058fc2f1-25b8-4868-b0ac-ba983004244a</stepIdentifier>
+                <stepIdentifier>7d9e1b7a-bea7-4731-b63a-8a46a27568c4</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>144813bb-552a-400f-9c2f-e2850d72dd7e</stepIdentifier>
+            <stepIdentifier>3342a2cb-54b0-4c51-8775-54e2a1f1fe6e</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>Hi {!FirstName} {!LastName}</message>
-                <messageIdentifier>14b47ae5-474c-ca7c-b62f-a5805baae243</messageIdentifier>
+                <messageIdentifier>edc8a856-0169-42d8-8c03-04803ac49f77</messageIdentifier>
             </botMessages>
-            <stepIdentifier>18396279-f85b-42ab-a0fc-1feeab6da227</stepIdentifier>
+            <stepIdentifier>8be3f6db-339a-482f-a552-7967557df821</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -776,9 +1002,9 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>f5733817-45ee-40ea-8454-a6832cdfb11e</variableOperationIdentifier>
+                <variableOperationIdentifier>3daada1f-1c9d-4b9b-b283-02f256d4e33b</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>38facda5-5ff9-4eda-84b4-6d955501473d</stepIdentifier>
+            <stepIdentifier>d08dca28-b9ad-45af-865b-53e5cf21c5d6</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -795,11 +1021,11 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>52a00cf4-9c4e-441f-b1eb-4d2ac1f7df68</stepIdentifier>
+                <stepIdentifier>bf304d36-497c-4e66-9490-76671013f4b1</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>9ad44d2f-74d8-4a08-98a8-37e85acf6353</stepIdentifier>
+            <stepIdentifier>94c83add-edb8-4fa5-bdff-fa01e7680310</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -816,15 +1042,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>7f2407b0-9c2c-4dc3-9216-3ca0ed4c388d</stepIdentifier>
+                <stepIdentifier>0530703d-c7eb-47a8-84b3-5d2c66700c7c</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>78793d4a-ca77-9925-df39-c94116492615</stepIdentifier>
+            <stepIdentifier>b7fb28a1-61bb-4c52-a128-761077162099</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>3ea52801-cb0c-4352-931c-512bf4225a00</stepIdentifier>
+            <stepIdentifier>773b001d-cdc1-499b-b830-b6441b8289bd</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <description>Dialog to show the process to the warranty</description>
@@ -842,21 +1068,21 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>f66b9b11-1aeb-478a-b777-0dee3612e110</variableOperationIdentifier>
+                    <variableOperationIdentifier>5285cc94-ca5b-4ea2-b5fa-fe4d40d027f1</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>f218ad8a-0c25-4a50-82ab-52843617a492</stepIdentifier>
+                <stepIdentifier>7b262634-c83c-4826-ab82-dbe5893ec0b9</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>144813bb-552a-400f-9c2f-e2850d72dd7e</stepIdentifier>
+            <stepIdentifier>9ea5badd-0a36-449a-b300-c9796e10b6f5</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>Hi {!FirstName} {!LastName} let me transfer you to an VIP agent</message>
-                <messageIdentifier>14b47ae5-474c-ca7c-b62f-a5805baae243</messageIdentifier>
+                <messageIdentifier>6f832c92-a3d4-4d00-8740-e6c29e21b47e</messageIdentifier>
             </botMessages>
-            <stepIdentifier>18396279-f85b-42ab-a0fc-1feeab6da227</stepIdentifier>
+            <stepIdentifier>a565bea3-868c-4604-840b-afa7d7c31e23</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -869,9 +1095,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Set</type>
-                    <variableOperationIdentifier>eec8a937-0e52-4ae4-a9e7-c07581f55e20</variableOperationIdentifier>
+                    <variableOperationIdentifier>fcfc5199-2179-4576-968a-a31f8c721e56</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>9e5dbf72-9115-4eff-ae2f-150b4e24f2f1</stepIdentifier>
+                <stepIdentifier>7e048f41-2771-41ae-bdd6-b73943c77305</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <botSteps>
@@ -883,15 +1109,15 @@
                     </systemMessageMappings>
                     <type>Transfer</type>
                 </conversationSystemMessage>
-                <stepIdentifier>b233092e-0813-42cc-850d-d5054eaee92e</stepIdentifier>
+                <stepIdentifier>de814190-be83-4065-a092-5b391394ec5e</stepIdentifier>
                 <type>SystemMessage</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>e32e12b0-42bd-4326-8a4d-565417ed85ef</stepIdentifier>
+            <stepIdentifier>8e85dc1f-45fb-4921-8734-0ad5f00409db</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>3ea52801-cb0c-4352-931c-512bf4225a00</stepIdentifier>
+            <stepIdentifier>b9e78a52-a9ce-4714-af7a-b1f55544a065</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <description>Dialog to show the process to the warranty</description>
@@ -909,13 +1135,13 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>c0fbba6b-4f49-4e68-a38b-83a354eb05d2</variableOperationIdentifier>
+                    <variableOperationIdentifier>808f16c3-3902-4660-9908-12b0aa1c6afd</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>69ff0b4d-92fd-4d95-8702-1db0f0d14631</stepIdentifier>
+                <stepIdentifier>1cb5d25b-ce3b-4fee-a3d3-6562315d0886</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>f4ca09d9-9b88-4c70-9750-53d5812acb5a</stepIdentifier>
+            <stepIdentifier>f41c0a88-c85b-4b0a-8446-262fd9257126</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -924,7 +1150,7 @@
                 <autoSelectIfSingleChoice>false</autoSelectIfSingleChoice>
                 <botMessages>
                     <message>{!FirstName}, for which of these products would you like to make a warranty claim?</message>
-                    <messageIdentifier>7b725545-3cf2-b9ec-56a6-7d3fd8ef6fb5</messageIdentifier>
+                    <messageIdentifier>d22ea67b-99b2-4b26-b169-4187b28ee6ba</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -942,21 +1168,37 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyOptionTemplate>{!Name}</quickReplyOptionTemplate>
                 <quickReplyType>Dynamic</quickReplyType>
-                <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                <quickReplyWidgetType>Menu</quickReplyWidgetType>
                 <sourceVariableName>Assets_List</sourceVariableName>
                 <sourceVariableType>ConversationVariable</sourceVariableType>
                 <type>Collect</type>
-                <variableOperationIdentifier>30c85a02-472e-8a71-8d2b-a8172ea167bc</variableOperationIdentifier>
+                <variableOperationIdentifier>74519088-b7af-481d-ae92-50f08ecd9d8c</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>3d8ec6e7-f217-465e-80fd-d7f88c3ebc5f</stepIdentifier>
+            <stepIdentifier>db90f3e0-aa5f-4511-bb9d-5fdab2abddf5</stepIdentifier>
             <type>VariableOperation</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>Your product chosen was :</message>
+                <messageIdentifier>c1065103-6104-c6c0-3b2a-2d601c5f8f38</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>a95d0543-64a8-4e9d-9766-e4f8965a54e7</stepIdentifier>
+            <type>Message</type>
+        </botSteps>
+        <botSteps>
+            <botMessages>
+                <message>{!Asset_Object.Name}</message>
+                <messageIdentifier>83969e70-b93c-dec1-cb47-701aa93aef9f</messageIdentifier>
+            </botMessages>
+            <stepIdentifier>c1ef3264-a717-4306-b82b-c460810e69ad</stepIdentifier>
+            <type>Message</type>
         </botSteps>
         <botSteps>
             <botVariableOperation>
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
-                    <message>Can you give a title for your problem with {!Asset_Object.Name}?</message>
-                    <messageIdentifier>791899a4-a11b-bec1-9dc1-390bafc9de7a</messageIdentifier>
+                    <message>Can you give a headline for your problem with {!Asset_Object.Name}?</message>
+                    <messageIdentifier>52b4b454-5068-4f0a-a00b-d9f5aa5e3ba3</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -968,9 +1210,9 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>87ce23ea-d541-e18e-cfb1-c0ebe36123eb</variableOperationIdentifier>
+                <variableOperationIdentifier>3167959f-d8f2-4e62-8e41-f1df8ccd3edd</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>5e750a88-59cc-4f22-8ce4-28f5fc0feca3</stepIdentifier>
+            <stepIdentifier>0570a84f-faa9-430e-ad56-c18a2f2b0f86</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -978,7 +1220,7 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>Ok, thank you, can you describe what problem you are having with {!Asset_Object.Name}?</message>
-                    <messageIdentifier>09adccde-9f7b-3588-3e5f-c209ac490ad6</messageIdentifier>
+                    <messageIdentifier>74ad9b49-d351-4621-b67b-390287e7c161</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -990,9 +1232,9 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyWidgetType>Buttons</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>ea3c509c-20c0-2871-0d62-563b4d8d138e</variableOperationIdentifier>
+                <variableOperationIdentifier>e962c6a2-bb7b-439c-ba34-21f467fc5965</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>2ceedeae-15a1-423f-31b8-d7335a560fdb</stepIdentifier>
+            <stepIdentifier>ffb3c746-3db2-4b86-8267-3b5a6202e434</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -1012,7 +1254,7 @@
                 <sourceVariableType>ConversationVariable</sourceVariableType>
                 <targetVariableName>Knowledge_List</targetVariableName>
             </conversationRecordLookup>
-            <stepIdentifier>7a4b5233-6e22-4231-88da-86c0f52f406a</stepIdentifier>
+            <stepIdentifier>27ca8b6a-47c9-493b-b241-a3d8ce6de65b</stepIdentifier>
             <type>RecordLookup</type>
         </botSteps>
         <botSteps>
@@ -1029,11 +1271,11 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>c0123323-f746-4e90-add9-7965e3f006eb</stepIdentifier>
+                <stepIdentifier>98195b97-542a-4b3f-af71-a45631ff825e</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>42d22683-47dc-41a7-831f-0a3e19d4e42f</stepIdentifier>
+            <stepIdentifier>35ab076d-79bf-4220-aa5b-dc21f655dfae</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -1050,23 +1292,23 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>b4754f8a-f4f2-492e-b98a-b6822f5f4c41</stepIdentifier>
+                <stepIdentifier>1eabf90c-428e-452a-8794-f46d0b01ac7d</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>a60d5bc5-f3f9-4072-a30e-c3a1d05dde0a</stepIdentifier>
+            <stepIdentifier>98b11f7a-12ad-430f-bfbf-b4b8ad89fc59</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
             <conversationSystemMessage>
                 <type>Transfer</type>
             </conversationSystemMessage>
-            <stepIdentifier>7de50f3e-dcdd-4673-bf70-f276e529c997</stepIdentifier>
+            <stepIdentifier>e863c892-b356-4c1c-a39e-5bf447a3d9c7</stepIdentifier>
             <type>SystemMessage</type>
         </botSteps>
         <developerName>Description_of_Porblem</developerName>
         <isPlaceholderDialog>false</isPlaceholderDialog>
-        <label>Description of Problem</label>
+        <label>Description Problem</label>
         <showInFooterMenu>false</showInFooterMenu>
     </botDialogs>
     <botDialogs>
@@ -1076,7 +1318,7 @@
                 <autoSelectIfSingleChoice>false</autoSelectIfSingleChoice>
                 <botMessages>
                     <message>Maybe some of those articles can help you?</message>
-                    <messageIdentifier>60764da9-0e7d-a256-7145-fe5d0caac212</messageIdentifier>
+                    <messageIdentifier>21dd9fec-18f0-4b63-9da9-bc0ec0ba2f6d</messageIdentifier>
                 </botMessages>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -1094,45 +1336,45 @@
                 <optionalCollect>false</optionalCollect>
                 <quickReplyOptionTemplate>{!Title}</quickReplyOptionTemplate>
                 <quickReplyType>Dynamic</quickReplyType>
-                <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                <quickReplyWidgetType>Menu</quickReplyWidgetType>
                 <sourceVariableName>Knowledge_List</sourceVariableName>
                 <sourceVariableType>ConversationVariable</sourceVariableType>
                 <type>Collect</type>
-                <variableOperationIdentifier>e02fc241-529b-aa60-2308-56ba7db7256c</variableOperationIdentifier>
+                <variableOperationIdentifier>fcb870d6-7950-49c2-a305-5dee18f18d60</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>34013b6f-f533-4c26-a691-f7fbdd0ab04e</stepIdentifier>
+            <stepIdentifier>6b8c9a7c-3b1e-42ab-9f17-e2056ec5820b</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>Summary</message>
-                <messageIdentifier>057535fb-f3db-2867-7560-7e18f318f43e</messageIdentifier>
+                <messageIdentifier>932a80b9-ec9a-4f6c-b102-8aa07a3519fa</messageIdentifier>
             </botMessages>
-            <stepIdentifier>f1b2cbc5-af35-491f-9719-19c865175c64</stepIdentifier>
+            <stepIdentifier>a36ce65f-2a04-48f0-8df6-d7f047ec7ddb</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>{!Knowledge_Object.Summary}</message>
-                <messageIdentifier>4992fd32-1a00-1fb8-b1bb-6ba27dc6c762</messageIdentifier>
+                <messageIdentifier>05aaeaec-72e3-467d-9af2-81d6ee4c4a51</messageIdentifier>
             </botMessages>
-            <stepIdentifier>2c9e43e7-0bc9-2591-a6ab-41d651a2f6b8</stepIdentifier>
+            <stepIdentifier>f08552c6-b07b-4d75-a74b-31af2a4e7280</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>Solution</message>
-                <messageIdentifier>2b5148e1-968a-89d6-0c76-b16841dee13c</messageIdentifier>
+                <messageIdentifier>a0a8fcc7-1a6a-4e41-87e5-aca25b0dbe6d</messageIdentifier>
             </botMessages>
-            <stepIdentifier>def35ff4-1c27-c718-413a-aef2ff6df88f</stepIdentifier>
+            <stepIdentifier>3c12dec1-8990-4631-89ec-5e9149385516</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <botMessages>
                 <message>{!Knowledge_Object.Solution__c}</message>
-                <messageIdentifier>4ff25047-7fc5-3069-20fb-c5a09af9b62a</messageIdentifier>
+                <messageIdentifier>d117b34d-2ead-4fa7-8e36-45cc54656142</messageIdentifier>
             </botMessages>
-            <stepIdentifier>89dcf35c-3808-5ecc-ca31-0f0d753bb1be</stepIdentifier>
+            <stepIdentifier>2affa2c1-486b-4170-b110-d0b3fe76f983</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -1140,15 +1382,15 @@
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
                     <message>{!FirstName}, do your problem is solved ?</message>
-                    <messageIdentifier>61ca104e-7bea-c823-4f79-9f92ed833adc</messageIdentifier>
+                    <messageIdentifier>1c3c8a24-c27a-4d76-812b-c9306d9b53e9</messageIdentifier>
                 </botMessages>
                 <botQuickReplyOptions>
                     <literalValue>Yes</literalValue>
-                    <quickReplyOptionIdentifier>ca31468d-b5ca-dfd5-37c5-82acfe5d7bd9</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>eeb65b02-5aa3-4aa0-b5b5-8c83dcf39e8b</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botQuickReplyOptions>
                     <literalValue>No</literalValue>
-                    <quickReplyOptionIdentifier>bee83f15-9d11-704b-1d61-6a44515f515f</quickReplyOptionIdentifier>
+                    <quickReplyOptionIdentifier>0fbbdd18-3952-4f12-a55f-9c8b90ffa506</quickReplyOptionIdentifier>
                 </botQuickReplyOptions>
                 <botVariableOperands>
                     <disableAutoFill>true</disableAutoFill>
@@ -1161,9 +1403,9 @@
                 <quickReplyType>Static</quickReplyType>
                 <quickReplyWidgetType>Menu</quickReplyWidgetType>
                 <type>Collect</type>
-                <variableOperationIdentifier>36e91f10-ee47-31c3-967c-ed7edc2296ef</variableOperationIdentifier>
+                <variableOperationIdentifier>76f9212b-9df8-43a2-88c8-d9c26e2e062e</variableOperationIdentifier>
             </botVariableOperation>
-            <stepIdentifier>0e2325dd-dce2-44c3-aab1-d4c89d4781ab</stepIdentifier>
+            <stepIdentifier>b469300c-33a0-4b32-a926-4f3cd27353bf</stepIdentifier>
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
@@ -1180,11 +1422,11 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>a4b7ba5e-3d35-4e30-a85f-4e5ce4bd9c26</stepIdentifier>
+                <stepIdentifier>19da5ecb-d58a-4ea9-8e21-7897c9f2c6f0</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>0fad16a0-f648-46f2-bd41-d0cc5041a39f</stepIdentifier>
+            <stepIdentifier>ceb152ea-0026-441f-a82e-0f234b9f0c89</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
@@ -1201,15 +1443,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>36332b93-541c-4589-aab5-aeca7c814e7e</stepIdentifier>
+                <stepIdentifier>1a19de55-f498-4545-b889-6fb8c7d2afec</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>754b5882-1e54-fe49-f70a-728fcb4189a9</stepIdentifier>
+            <stepIdentifier>2e238e97-8a47-4fe8-9a6d-1dab73a80ab6</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>a3bcd068-dee9-4121-9f9e-2dd854d42687</stepIdentifier>
+            <stepIdentifier>b41b444c-7d2b-4f39-b6d4-08812538af36</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Knowledge</developerName>
@@ -1221,16 +1463,16 @@
         <botSteps>
             <botMessages>
                 <message>I am sorry to hear about your challenges, let me transfer you to an agent</message>
-                <messageIdentifier>564d6768-969b-b7ba-0029-a96baf77a983</messageIdentifier>
+                <messageIdentifier>c7f3bb16-1b0b-4a49-a69d-27570a96cddc</messageIdentifier>
             </botMessages>
-            <stepIdentifier>34a60b98-90a2-43be-b2e4-ed1a10a9daa4</stepIdentifier>
+            <stepIdentifier>d6ff75da-b0e8-49d1-8043-99527e8b61aa</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
             <conversationSystemMessage>
                 <type>Transfer</type>
             </conversationSystemMessage>
-            <stepIdentifier>bde3e043-8098-469f-ac21-dc0f5c06bf09</stepIdentifier>
+            <stepIdentifier>778fd14d-b133-4167-8925-67510aba0582</stepIdentifier>
             <type>SystemMessage</type>
         </botSteps>
         <developerName>Transfer_To_Agent</developerName>
@@ -1242,9 +1484,9 @@
         <botSteps>
             <botMessages>
                 <message>Thanks for taking the time to chat. I’ve ended the conversation. To start a new conversation, enter some text.</message>
-                <messageIdentifier>727a22d1-f0a9-4fbe-b4c7-abdfce7da437</messageIdentifier>
+                <messageIdentifier>ca3cdce3-92e1-49de-ba2a-3c424694db3f</messageIdentifier>
             </botMessages>
-            <stepIdentifier>10f233e1-816c-45b5-8a34-745918823eb3</stepIdentifier>
+            <stepIdentifier>4a0aa71d-54d8-4756-a528-d5e800ac7708</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -1252,14 +1494,14 @@
                 <conversationSystemMessage>
                     <type>EndChat</type>
                 </conversationSystemMessage>
-                <stepIdentifier>850a397f-7137-4126-9d9d-e156175f21dd</stepIdentifier>
+                <stepIdentifier>a7ef170a-71c7-45b1-b0a0-d58798532e52</stepIdentifier>
                 <type>SystemMessage</type>
             </botSteps>
-            <stepIdentifier>8c7618cd-b600-455c-80a4-42097d9b8025</stepIdentifier>
+            <stepIdentifier>082943e2-bbff-4a80-bf57-39eb231b8d47</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>1400632f-ffda-4d61-b5be-93fa2ac57c4c</stepIdentifier>
+            <stepIdentifier>6a2613a4-6c76-4b7d-ade9-68a8ab43fbf2</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Rich_Content_End_Chat</developerName>
@@ -1271,9 +1513,9 @@
         <botSteps>
             <botMessages>
                 <message>Sorry, I didn&apos;t understand that.</message>
-                <messageIdentifier>1e769424-5327-411e-b5ae-f057702db69b</messageIdentifier>
+                <messageIdentifier>073c4805-4013-4cbf-b4cb-d6f4f5a9be0c</messageIdentifier>
             </botMessages>
-            <stepIdentifier>1f228ecc-03e9-4c71-86ce-55236c030124</stepIdentifier>
+            <stepIdentifier>78d23153-5b47-4589-a1d6-854963bded96</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -1281,15 +1523,15 @@
                 <conversationSystemMessage>
                     <type>EndChat</type>
                 </conversationSystemMessage>
-                <stepIdentifier>0f01bf18-456d-4ca7-8c91-256818fb3c78</stepIdentifier>
+                <stepIdentifier>8513b029-393b-41ea-bf96-46d4e3e5f3b1</stepIdentifier>
                 <type>SystemMessage</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>ea290906-3832-4ee9-9037-440ecbb29ddb</stepIdentifier>
+            <stepIdentifier>3ccdc234-4996-49c1-aebb-789788d5bf84</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>9b3c075d-f7d7-4ea6-8a85-e4c21768e834</stepIdentifier>
+            <stepIdentifier>20886073-07f5-4d71-b4f6-f6c7624b6bcf</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Confused</developerName>
@@ -1303,13 +1545,13 @@
         <botSteps>
             <botMessages>
                 <message>Unfortunately, there are no agents available at the moment</message>
-                <messageIdentifier>5bdfee4c-35a3-46be-811a-73c87494d47a</messageIdentifier>
+                <messageIdentifier>6378f318-e9db-47f9-a2a9-4d9a5fc630ab</messageIdentifier>
             </botMessages>
-            <stepIdentifier>ebd9c359-7e2c-4b8b-a920-a81b994c2f50</stepIdentifier>
+            <stepIdentifier>2d2825f9-4fee-4102-b2d5-d63e66ec9b3b</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>83d66a87-0191-4d52-90cc-f0c3ae0e669f</stepIdentifier>
+            <stepIdentifier>f2925761-4d65-4bc1-a210-d0ecf8a2868a</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>No_Agent_Available</developerName>
@@ -1321,9 +1563,9 @@
         <botSteps>
             <botMessages>
                 <message>Unfortunately, a system error occurred. Let us start again.</message>
-                <messageIdentifier>464068cb-68f1-4b46-93ba-8a2959836336</messageIdentifier>
+                <messageIdentifier>eff983bb-559c-4612-88b2-763a611779d7</messageIdentifier>
             </botMessages>
-            <stepIdentifier>0467738d-f038-4b08-a73c-6ccd23d254d4</stepIdentifier>
+            <stepIdentifier>37115be1-b3e3-4ff9-867a-639e586c618f</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -1333,7 +1575,7 @@
                 </botNavigationLinks>
                 <type>Redirect</type>
             </botNavigation>
-            <stepIdentifier>379c61cb-5397-4de2-87c7-0599bdc8f37c</stepIdentifier>
+            <stepIdentifier>b3735dec-2ee0-4c2b-a059-97dffd2531fe</stepIdentifier>
             <type>Navigation</type>
         </botSteps>
         <developerName>Rich_Content_Error_Handling</developerName>
@@ -1345,9 +1587,9 @@
         <botSteps>
             <botMessages>
                 <message>Unfortunately, your information does not exist into the ASKR Technologies.</message>
-                <messageIdentifier>6895718e-2bb4-ab7d-dc84-8b65956fb71f</messageIdentifier>
+                <messageIdentifier>f8e38905-5086-4988-a863-7552023f5d2b</messageIdentifier>
             </botMessages>
-            <stepIdentifier>c9036b9e-6ddc-4ea7-b404-3bd5b03db3ed</stepIdentifier>
+            <stepIdentifier>a92f491a-e3af-4f8d-9732-bacd5318f6d8</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -1358,15 +1600,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>1bd32053-fa28-4f44-ad9d-986c072b51d8</stepIdentifier>
+                <stepIdentifier>763e6da6-5c73-4ee1-a68c-fde141580948</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>eb108933-bb6d-41ef-ba7e-17386bbee531</stepIdentifier>
+            <stepIdentifier>2cdd29cd-a130-4d2a-9428-2c0156d47553</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>2043beec-60bc-446b-8b9c-998ae6d0ecc8</stepIdentifier>
+            <stepIdentifier>4e591317-1827-4ae1-81a2-9ff5cd1fe178</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <description>If the data from the user does not exists into the database, finished the call</description>
@@ -1379,9 +1621,9 @@
         <botSteps>
             <botMessages>
                 <message>Unfortunately, you do not have any asset into the ASKR Technologies.</message>
-                <messageIdentifier>c9f0bb2f-e0d6-e13f-8777-39be91efff78</messageIdentifier>
+                <messageIdentifier>9986509e-eec7-496c-8ccf-93df828a0215</messageIdentifier>
             </botMessages>
-            <stepIdentifier>1a14f976-8503-4400-b990-f16a1bac5e68</stepIdentifier>
+            <stepIdentifier>0977a3a7-fdc9-4792-be4f-cc3ecc4a3774</stepIdentifier>
             <type>Message</type>
         </botSteps>
         <botSteps>
@@ -1392,15 +1634,15 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>cfa1ae72-a68c-4671-a4f7-0ea843cf6260</stepIdentifier>
+                <stepIdentifier>bd9153aa-c9c0-4dda-bb82-5fbea0e4c0e1</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
-            <stepIdentifier>376459f2-3a5a-42a7-bd01-d25317836813</stepIdentifier>
+            <stepIdentifier>744a79a0-100d-4a50-8dc2-c86f018e0ea5</stepIdentifier>
             <type>Group</type>
         </botSteps>
         <botSteps>
-            <stepIdentifier>100cd8bf-08b5-456d-a433-1062ac08763f</stepIdentifier>
+            <stepIdentifier>03464d55-e684-470c-9fb8-f6238cb46619</stepIdentifier>
             <type>Wait</type>
         </botSteps>
         <developerName>Any_Asset_Associated</developerName>

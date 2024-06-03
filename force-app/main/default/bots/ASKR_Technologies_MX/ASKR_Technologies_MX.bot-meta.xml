@@ -61,12 +61,47 @@
     <contextVariables>
         <contextVariableMappings>
             <SObjectType>MessagingSession</SObjectType>
-            <fieldName>MessagingSession.ConversationId</fieldName>
+            <fieldName>MessagingSession.EndUserContactId</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.EndUserContactId</fieldName>
             <messageType>Facebook</messageType>
         </contextVariableMappings>
-        <dataType>Id</dataType>
-        <developerName>EndUserId</developerName>
-        <label>End User Id</label>
+        <dataType>Text</dataType>
+        <developerName>EndUserContactId</developerName>
+        <label>EndUserContactId</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingEndUser</SObjectType>
+            <fieldName>MessagingEndUser.Id</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.MessagingEndUserId</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>MessagingEndUserId</developerName>
+        <label>MessagingEndUserId</label>
+    </contextVariables>
+    <contextVariables>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>Facebook</messageType>
+        </contextVariableMappings>
+        <contextVariableMappings>
+            <SObjectType>MessagingSession</SObjectType>
+            <fieldName>MessagingSession.Id</fieldName>
+            <messageType>WhatsApp</messageType>
+        </contextVariableMappings>
+        <dataType>Text</dataType>
+        <developerName>RecordId</developerName>
+        <label>RecordId</label>
     </contextVariables>
     <contextVariables>
         <contextVariableMappings>
