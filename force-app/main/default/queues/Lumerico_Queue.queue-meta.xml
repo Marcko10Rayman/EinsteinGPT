@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Lumerico Queue</name>
+    <queueMembers>
+        <users>
+            <user>eulises.aguilar@concentrix.com</user>
+            <user>marco.cruz@concentrix.com</user>
+        </users>
+    </queueMembers>
+    <queueRoutingConfig>Lumerico_Route</queueRoutingConfig>
+    <queueSobject>
+        <sobjectType>MessagingSession</sobjectType>
+    </queueSobject>
+</Queue>

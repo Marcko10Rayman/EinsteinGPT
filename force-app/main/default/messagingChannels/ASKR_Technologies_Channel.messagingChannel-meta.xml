@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MessagingChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <masterLabel>ASKR Technologies MIAW</masterLabel>
+    <messagingChannelType>EmbeddedMessaging</messagingChannelType>
+    <sessionHandlerFlow>Route_to_ASKR_Technologies_MX</sessionHandlerFlow>
+    <sessionHandlerQueue>Lumerico_Queue</sessionHandlerQueue>
+    <sessionHandlerType>Flow</sessionHandlerType>
+</MessagingChannel>

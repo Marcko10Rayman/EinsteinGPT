@@ -11,9 +11,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>9813e11a-889f-4dc7-9332-f4dd287e01a1</variableOperationIdentifier>
+                    <variableOperationIdentifier>cbbf1141-e79c-4f9e-9530-6462dfc1f536</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>b243915d-21c5-4037-bfbf-fefdc2f50394</stepIdentifier>
+                <stepIdentifier>a0184360-d30a-4ceb-b347-ab74882a9ad2</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -39,7 +39,7 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>76132356-f3b0-4158-9d89-7a29e92b5ae3</variableOperationIdentifier>
+                <variableOperationIdentifier>ced9aabd-74a4-415d-9af5-88e571a5bb5d</variableOperationIdentifier>
             </botVariableOperation>
             <stepIdentifier>d02b10d2-7b62-4527-81f3-53074865875e</stepIdentifier>
             <type>VariableOperation</type>
@@ -68,9 +68,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Set</type>
-                    <variableOperationIdentifier>a61f08d1-d789-4c6f-8776-e7d2b382e062</variableOperationIdentifier>
+                    <variableOperationIdentifier>d69286fc-c6fe-4a96-9b76-467a17c8d143</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>ed8536c9-fa22-4495-9608-c2f6dd894549</stepIdentifier>
+                <stepIdentifier>d0d67c81-6f85-422b-867e-8b50756ac979</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <botSteps>
@@ -82,7 +82,7 @@
                     </systemMessageMappings>
                     <type>Transfer</type>
                 </conversationSystemMessage>
-                <stepIdentifier>9c4a0e7f-6467-43ee-a3f2-17ccc0544d0f</stepIdentifier>
+                <stepIdentifier>31a30aab-6654-4970-bf48-ee22e059ba2d</stepIdentifier>
                 <type>SystemMessage</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -97,9 +97,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>Unset</type>
-                    <variableOperationIdentifier>6509c63f-d523-4dec-a2e3-6ca91f4622df</variableOperationIdentifier>
+                    <variableOperationIdentifier>c352d22d-3cd7-4fca-8ddc-e5856dc054ce</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>809e6da6-eed4-49a4-bb04-08c712193424</stepIdentifier>
+                <stepIdentifier>0370079a-28e1-4862-b4ab-691a86432cad</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -167,7 +167,7 @@
             <botVariableOperation>
                 <askCollectIfSet>false</askCollectIfSet>
                 <botMessages>
-                    <message>What language would you prefer to the bot in ?</message>
+                    <message>What language would you prefer to chat in ?</message>
                     <messageIdentifier>6cf0c521-0d9d-4326-a44f-edbc2bc6c973</messageIdentifier>
                 </botMessages>
                 <botQuickReplyOptions>
@@ -202,9 +202,9 @@
                         <targetType>ConversationVariable</targetType>
                     </botVariableOperands>
                     <type>SetConversationLanguage</type>
-                    <variableOperationIdentifier>cf6983a5-a648-48ab-9ad7-4b58ff8e6fce</variableOperationIdentifier>
+                    <variableOperationIdentifier>adcadfa2-f466-40fb-9403-c4c472b851bc</variableOperationIdentifier>
                 </botVariableOperation>
-                <stepIdentifier>e5257b2b-d939-47ee-ba6f-8508328c78f1</stepIdentifier>
+                <stepIdentifier>65c3eefa-539a-4a08-b3e6-01f2494c4b67</stepIdentifier>
                 <type>VariableOperation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -260,7 +260,7 @@
                     </invocationMappings>
                 </botInvocation>
                 <type>Set</type>
-                <variableOperationIdentifier>6c293647-3d4c-482d-b8fc-807ddb57d879</variableOperationIdentifier>
+                <variableOperationIdentifier>cb5dad31-8e4a-4604-9db8-1d3aabd8fa89</variableOperationIdentifier>
             </botVariableOperation>
             <stepIdentifier>ccc085fe-e85c-4615-90c9-e3bf84198d08</stepIdentifier>
             <type>VariableOperation</type>
@@ -299,14 +299,6 @@
             <type>VariableOperation</type>
         </botSteps>
         <botSteps>
-            <botMessages>
-                <message>{!EndUserContactId}</message>
-                <messageIdentifier>fe1c81ad-0c8a-9143-2358-2e861deb4ac7</messageIdentifier>
-            </botMessages>
-            <stepIdentifier>584c8820-8989-426a-b24b-831fe8c0bb24</stepIdentifier>
-            <type>Message</type>
-        </botSteps>
-        <botSteps>
             <botStepConditions>
                 <leftOperandName>Utterance_List</leftOperandName>
                 <leftOperandType>ConversationVariable</leftOperandType>
@@ -341,7 +333,7 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>9b76f6f1-0bc7-4233-af2b-7bd0aabc9225</stepIdentifier>
+                <stepIdentifier>56e0e74e-419b-4e5c-be73-ab3aaa6cf16f</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -383,7 +375,7 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>e9f701b6-8ad5-4c34-b239-633df0acd7b3</stepIdentifier>
+                <stepIdentifier>5b5fb12c-c2fc-4fed-831d-b590cde6d7f5</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
@@ -404,7 +396,7 @@
                     </botNavigationLinks>
                     <type>Call</type>
                 </botNavigation>
-                <stepIdentifier>57e9ad92-a70b-497f-93c5-19ebdd14092e</stepIdentifier>
+                <stepIdentifier>4764dba1-6c83-428f-93c6-bda1a11c10e3</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
             <conditionLogicType>And</conditionLogicType>
