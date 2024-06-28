@@ -35,7 +35,7 @@ public class MX_Bot_Validate_Contact_Information_Test {
     public static void validateContactError() {
         List<MX_Bot_Validate_Contact_Information.UserInput> inputs = new List<MX_Bot_Validate_Contact_Information.UserInput>();
         MX_Bot_Validate_Contact_Information.UserInput newInput = new MX_Bot_Validate_Contact_Information.UserInput();
-        newInput.userInfo = 'User,Test2,userEmail2@test.com,Number2';
+        newInput.userInfo = 'User Test2,userEmail2@test.com,Number2';
         newInput.MessagingUserId = 'Test';
         inputs.add(newInput);
         Test.startTest();
