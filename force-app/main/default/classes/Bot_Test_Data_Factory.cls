@@ -21,6 +21,8 @@ public with sharing class Bot_Test_Data_Factory {
         for (Integer i = 0; i < numberOfRecords; i++) {
             Product2 prod = new Product2();
             prod.Name = 'Test Product ' + i;
+            prod.Family = 'Accounting BPO';
+            prod.Product_Summary__c = 'I am riche text to fill this test record';
             lstProduct2.add(prod);
         }
 
@@ -55,6 +57,21 @@ public with sharing class Bot_Test_Data_Factory {
         return getValues;
     }
 
+    public static void lstPrices(Integer numberOfRecords, Boolean doInsert, String productId){
+        List<PricebookEntry> lstBooks = new List<PricebookEntry>();
+        for(Integer i = 0; i < numberOfRecords; i++) {
+            PricebookEntry book = new PricebookEntry();
+            book.Product2Id = productId;
+            book.UnitPrice = 120;
+            book.Pricebook2Id = Test.getStandardPricebookId();
+            lstBooks.add(book);
+        }
+
+        if(doInsert) {
+            Insert lstBooks;
+        }
+    }
+
 
     public static List<MessagingEndUser> createMessagingEndUser(Integer numberOfRecords, Boolean doInsert){
         List<MessagingEndUser> lstMessagingEndUser = new List<MessagingEndUser>();
@@ -62,7 +79,7 @@ public with sharing class Bot_Test_Data_Factory {
         for(Integer i = 0; i < numberOfRecords; i++) {
             MessagingEndUser objMessagingEndUser = new MessagingEndUser();
             objMessagingEndUser.Name = 'MessagingEndUser'+i;
-            objMessagingEndUser.MessageType = 'Facebook';
+            objMessagingEndUser.MessageType = 'EmbeddedMessaging';
             objMessagingEndUser.MessagingChannelId = messagingChannnel[0].id;
             objMessagingEndUser.MessagingPlatformKey = '7226556427461783';
             lstMessagingEndUser.add(objMessagingEndUser);
@@ -174,6 +191,28 @@ public with sharing class Bot_Test_Data_Factory {
             'invoiceId' => invoiceRec.Id,
             'invoiceLineItemId' => invoiceLineItemRec.Id
         };
+    }
+
+    public static List<User> createUsers(Integer numberOfRecords, Boolean doInsert, String profileId) {
+        List<User> lstUsers = new List<User>();
+        for (Integer i = 0; i < numberOfRecords; i++) {
+            User userRec = new User();
+            userRec.ProfileId = profileId;
+            userRec.FirstName = 'Test';
+            userRec.LastName = 'User ' + i;
+            userRec.Alias = 'tuser' + i;
+            userRec.EmailEncodingKey = 'UTF-8';
+            userRec.LanguageLocaleKey = 'en_US';
+            userRec.LocaleSidKey = 'en_US';
+            userRec.Email = 'testuser' + i + '@mcruz.com';
+            userRec.Username = 'testuser' + i + '@mcruz.com.testclass';
+            userRec.TimeZoneSidKey = 'America/Los_Angeles';
+            lstUsers.add(userRec);
+        }
+        if (doInsert) {
+            insert lstUsers;
+        }
+        return lstUsers;
     }
 
 }

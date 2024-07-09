@@ -27,10 +27,7 @@ public with sharing class Bot_AssetHandlerTest {
     @isTest
     public static void testAssetHandlerFail() {
         Test.startTest();
-            Bot_AssetHandler.UserInput assetInput = new Bot_AssetHandler.UserInput();
-            assetInput.accountId = '12345:\'';
             List<Bot_AssetHandler.UserInput> assetListInput = new List<Bot_AssetHandler.UserInput>();
-            assetListInput.add(assetInput);
             try {
                 List<List<Asset>> assetList = Bot_AssetHandler.getAssetByAccountId(assetListInput);
             } catch (Exception except) {

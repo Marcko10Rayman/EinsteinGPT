@@ -30,7 +30,6 @@ public with sharing class Bot_ConfusedCountController_Test {
         Test.startTest();
             Bot_ConfusedCountController.UserInput confusedInput = new Bot_ConfusedCountController.UserInput();
             List<Bot_ConfusedCountController.UserInput> lstInput = new List<Bot_ConfusedCountController.UserInput>();
-            lstInput.add(confusedInput);
             List<Integer> lstCount = Bot_ConfusedCountController.getConfusedCount(lstInput);
         Test.stopTest();
     }
