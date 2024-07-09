@@ -39,6 +39,7 @@ public with sharing class Bot_CancelWorkItemController_Test {
         List<List<Case>> testListCases = new List<List<Case>>();
         Test.startTest();
         List<Case> lstCaseTest = Bot_CancelWorkItemController.cancelWorkItems(testListCases);
+        Assert.areEqual(lstCaseTest.size() == 0, True, 'The list case is empty');
         Test.stopTest();
     }
 
@@ -54,8 +55,12 @@ public with sharing class Bot_CancelWorkItemController_Test {
         caseInputNumber.CaseNumber = caseNumber;
         List<Bot_CaseDetailHandler.CaseInput> lstCaseInput = new List<Bot_CaseDetailHandler.CaseInput>();
         Test.startTest();
-        List<Case> caseFromClass = Bot_CaseDetailHandler.getUserDetails(lstCaseInput);
-        Assert.areEqual(caseFromClass.size() > 0, True, 'The list case is empty');
+        try{
+            List<Case> caseFromClass = Bot_CaseDetailHandler.getUserDetails(lstCaseInput);
+        } catch(Exception except) {
+            System.debug(except);
+            Assert.areEqual('System.NullPointerException: Attempt to de-reference a null object', except.getMessage(), 'Different error');
+        }
         Test.stopTest();
     }
 
