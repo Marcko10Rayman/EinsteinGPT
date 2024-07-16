@@ -22,7 +22,7 @@ public class MX_Bot_Validate_Contact_Information_Test {
         List<MX_Bot_Validate_Contact_Information.UserInput> inputs = new List<MX_Bot_Validate_Contact_Information.UserInput>();
         MX_Bot_Validate_Contact_Information.UserInput newInput = new MX_Bot_Validate_Contact_Information.UserInput();
         MessagingEndUser msgEndUser = [SELECT Id From MessagingEndUser Limit 1];
-        newInput.userInfo = 'User,Test2,userEmail2@test.com,Number2';
+        newInput.userInfo = 'User Test2,userEmail2@test.com,Number2';
         newInput.MessagingUserId = msgEndUser.Id;
         inputs.add(newInput);
         Test.startTest();
